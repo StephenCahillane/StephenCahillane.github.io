@@ -4,11 +4,34 @@ body {
 
 header {
     border: black solid 2px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    display: flex;
+    flex-direction: row;
+}
+
+header nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+header nav a {
+    margin: 0 15px;
+    cursor: pointer;
+
+}
+
+#home {
+    color: #0dba86;
 }
 
 
+
 #aboutMeContainer {
-    border: black solid 2px;
+    
     display: flex;
     width: 35%;
     margin-top: 200px;
