@@ -1,7 +1,66 @@
-#aboutMeContainer {
-    border: black solid 2px;
+body {
+    background-color: rgba(0, 0, 15, 0.9);
 }
 
 header {
     border: black solid 2px;
+}
+
+
+#aboutMeContainer {
+    border: black solid 2px;
+    display: flex;
+    width: 35%;
+    margin-top: 200px;
+    margin-left: 200px;
+    flex-direction: column;
+    
+
+}
+
+
+#name {
+    font-size: 60px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    margin-top: 60px;
+    padding-left: 10px;
+    
+    
+}
+
+.greenHeading {
+    color: #0dba86;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 0;
+    margin-bottom: 30px;
+    padding-left: 10px;
+}
+
+#aboutMeContainer button {
+    background-color: #0dba86;
+    width: 200px;
+    height: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 35px;
+    padding-left: 10px;
+}
+
+#bio {
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 10px;
+    font-size: 18px;
+
+}
+
+#hi {
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: absolute;
+    padding-left: 10px;
+    
+
 }
