@@ -59,7 +59,7 @@ header nav a:hover {
     
 }
 
-.greenHeading {
+.tagline {
     color: #0dba86;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin-top: 0;
@@ -124,4 +124,52 @@ header nav a:hover {
     border: solid white 2px;
     display: flex;
     flex-direction: column;
+    margin-top: 150px;
+}
+
+#projectSquare {
+    border: #0dba86 solid 3px;
+    width: 400px;
+    height: 400px;
+    margin: auto;
+    padding-top: 20px;
+    
+
+}
+
+#projectSquare h2 {
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: 30px;
+}
+
+#projectSquare p {
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 18px;
+}
+
+
+.material-symbols-outlined {
+    color: white;
+    text-align: center;
+    font-size: 26px;
+    background-color: green;
+    width: 150px;
+    height:100px;
+    margin: auto;
+
+
+}
+
+
+.line {
+    width: 250px;
+    height: 3px;
+    margin: auto;
+    background-color: #0dba86;
+    
 }
