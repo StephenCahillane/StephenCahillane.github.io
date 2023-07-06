@@ -24,7 +24,8 @@ header nav a {
     margin-right: 75px;
     margin-top: 10px;
     cursor: pointer;
-
+    text-decoration: none;
+    color: white;
 }
 
 header nav a:hover {
@@ -259,7 +260,7 @@ article img {
 
 }
 
-#virtualPetContainer {
+.virtualPetContainer {
     height: 90%;
     width: 95%;
     background-color: rgb(230, 230, 230);
@@ -270,11 +271,32 @@ article img {
     
 }
 
-#logo {
+.logo {
     max-width: 350px;
     max-height: 250px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 200px;
     margin-bottom: 20px;
+}
+
+
+footer {
+   height: 80px;
+   
+   margin-top: 200px;
+   display: flex;
+   align-items: center;
+   justify-content: flex-end;
+
+}
+
+footer a img{
+    width: 50px;
+    height: 50px;
+
+}
+
+footer a {
+    margin-right: 50px;
 }
