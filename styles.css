@@ -213,6 +213,7 @@ article button {
     background: #0dba86;
     font-weight: bold;
     border: none;
+    cursor: pointer;
 
 }
 
@@ -228,7 +229,7 @@ article img {
 }
 
 .asideTechUsed {
-    border: solid black 2px;
+    border: solid #0dba86 3px;
     max-height: 300px;
     width: 30%;
     margin-right: 20px;
