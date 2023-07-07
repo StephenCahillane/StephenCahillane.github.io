@@ -173,11 +173,6 @@ header nav a:hover {
 
 
 
-
-
-
-
-
 #projectSquare h2 {
     color: white;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -315,6 +310,11 @@ article img {
     
 }
 
+.AboutMe div button a {
+    text-decoration: none;
+    color: black;
+}
+
 .logo {
     max-width: 350px;
     max-height: 250px;
@@ -343,4 +343,9 @@ footer a img{
 
 footer a {
     margin-right: 50px;
+}
+
+#githublogo img{
+    border-radius: 50%;
+
 }
