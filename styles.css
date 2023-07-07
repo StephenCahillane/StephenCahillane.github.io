@@ -142,6 +142,42 @@ header nav a:hover {
 
 }
 
+#projectSquare2 {
+    border: #0dba86 solid 3px;
+    
+    width: 800px;
+    min-height: 500px;
+    margin: auto;
+    padding: 10px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+
+}
+
+#projectSquare2 h2 {
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: 30px;
+}
+
+#projectSquare2 p {
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 18px;
+}
+
+
+
+
+
+
+
+
 #projectSquare h2 {
     color: white;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -167,6 +203,14 @@ header nav a:hover {
     font-size: 75px;
     
 
+
+}
+
+.red {
+    width: 500px;
+    height: 2px;
+    margin: auto;
+    background-color: #0dba86;
 
 }
 
